@@ -1,6 +1,6 @@
 # rotor
 
-Barebones child theme for GeneratePress that is SASS ready.
+Bare Bones child theme for GeneratePress that is SASS ready.
 
 ## Install
 
