@@ -1,0 +1,7 @@
+
+# Sass cache
+.sass-cache/
+
+# Development files
+/node_modules
+/assets/vendor/
