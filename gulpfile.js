@@ -113,7 +113,7 @@ gulp.task('watch', function () {
 gulp.task('compressjs', function (cb) {
     pump([
           gulp.src([
-            'assets/js/custom-scripts.js'
+            'assets/js/custom/custom-scripts.js'
         ]),
           uglify(),
           rename('scripts.min.js'),
@@ -128,5 +128,5 @@ gulp.task('compressjs', function (cb) {
 
 // Script Watch
 gulp.task('watchjs', function () {
-	gulp.watch('assets/js/*.js', gulp.series('compressjs'));
+	gulp.watch('assets/js/custom/*.js', gulp.series('compressjs'));
 });
